@@ -1,0 +1,6 @@
+version: '3'
+services:
+  step1:
+    build:
+      context: ./scripts
+      dockerfile: ./Dockerfile-step1

@@ -1,0 +1,5 @@
+steps:
+  - command: ./step1.sh
+    plugins:
+      - docker-compose#v3.1.0:
+          run: step1
