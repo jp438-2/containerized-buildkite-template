@@ -18,7 +18,7 @@ Using the Ubuntu 18.04 image this dockerfile:
 3. Copies the pipeline step's script that is to be run into the container.
 4. Uses pip to install all the requirements in the requirements file.
 
-Depending on the use case, a different docker image can be used and python3 or pip may not need to be installed. Similarly, if pip is not needed the Dockerfile need not copy the requirements file.
+Depending on the use case, a different docker image can be used and python3 or pip may not need to be installed. Similarly, if pip is not needed the Dockerfile should not copy the requirements file or try to run pip to install its contents.
 
 ### scripts/requirements-step1.txt
 
