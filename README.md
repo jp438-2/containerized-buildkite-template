@@ -40,4 +40,4 @@ To add more steps, firstly add a new command for that step to ./buildkite/pipeli
 
 1. pipline.yml is requiesting the new service in docker-compose.yml and the new pipeline script.
 2. docker-compose.yml is pointing to the new Dockerfile
-3. The new dockerfile is pointing to the new requiremtns file (3 times) and the new pipeline script.
+3. The new dockerfile is pointing to the new requirements file (3 times) and the new pipeline script.
