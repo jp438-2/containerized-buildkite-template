@@ -1,4 +1,4 @@
-# Dockerized Buildkite Template
+# Containerized Buildkite Template
 
 ## File definitions
 
